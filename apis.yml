@@ -1,8 +1,14 @@
 aid: roomi
 name: Roomi
-description: 'Roomi is a company surfaced as a portfolio company of dcm-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Roomi is a consumer roommate- and room-rental matching platform that connects verified renters looking
+  for roommates with people posting available rooms, sublets, spare rooms, and monthly rentals across more
+  than 200 cities. The service offers a searchable listing experience with filters for amenities, duration,
+  and property type, roommate verification and ID/background checks, an in-app booking and messaging system,
+  and a safety-check service. Roomi is delivered primarily through free iOS and Android mobile apps and a
+  web experience built on Bubble.io, monetized through premium features such as background checks and listing
+  boosts. It exposes no public developer API, developer portal, SDK, or documentation; this profile was added
+  to the API Evangelist network as a portfolio-company lead of DCM Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/roomi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,29 @@ x-backed-by:
 - dcm-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://23b4d640964e3d924b540388bada03d0.cdn.bubble.io/cdn-cgi/image/w=,h=,f=auto,dpr=1,fit=contain/f1671607919659x391386461595229800/Roomi%20r%20logo.png
 tags:
 - Company
 - Consumer
+- Real Estate
+- Rentals
+- Roommates
+- Marketplace
+- Mobile
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +47,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://roomiapp.com/
+  url: https://roomiapp.com/
+- type: Blog
+  url: https://roomiapp.com/blog
+- type: Support
+  url: https://roomiapp.com/faq
+- type: TermsOfService
+  url: https://roomiapp.com/legal
+- type: PrivacyPolicy
+  url: https://roomiapp.com/legal
+- type: DomainSecurity
+  url: security/roomi-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
