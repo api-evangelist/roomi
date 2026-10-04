@@ -45,7 +45,7 @@ image: https://23b4d640964e3d924b540388bada03d0.cdn.bubble.io/cdn-cgi/image/w=,h
 tags:
 - Company
 - Consumer
-- Real-Estate
+- Real Estate
 - Rentals
 - Roommates
 - Marketplace
@@ -58,6 +58,7 @@ tags_raw:
 - Roommates
 - Marketplace
 - Mobile
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
